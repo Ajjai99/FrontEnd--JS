@@ -1,4 +1,19 @@
 
+
+// challenge -1 
+let numbers = [9,2,1,3,8];
+let i = 0 ;
+
+for(let i=0 ;  i<=numbers.length ; i++){
+    let sum = numbers[i] + numbers[i+1]
+    if(sum == 3){
+     console.log(sum)
+    }
+}
+
+
+
+// challenge -2
 let digit = 0;
 let factorial = 1;
 let sum = 0; 
